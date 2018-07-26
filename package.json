@@ -14,7 +14,8 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "vue-parallaxy": "^1.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
