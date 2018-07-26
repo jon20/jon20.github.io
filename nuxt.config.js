@@ -9,8 +9,8 @@ const routerBase =
 
 module.exports = {
   /*
-    ** Headers of the page
-    */
+  ** Headers of the page
+  */
   head: {
     title: "mypage",
     meta: [
@@ -18,7 +18,20 @@ module.exports = {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "myhomepage" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    script: [
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.js"
+      }
+    ],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.css"
+      }
+    ]
   },
   /*
   ** Customize the progress bar color
