@@ -4,16 +4,42 @@
     <div class="col s12 m12">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <span class="card-title">About me !!</span>
+          <span class="card-title">About me</span>
           <p>I'm a college student. this page is portal site !!!</p>
         </div>
       </div>
-    <div class="col s12 m4">
+    <div class="col s5">
+        <div class="card blue-grey darken-1">
+            <div class="card-content center black-text">
+              <span class="card-title">Links</span>
+              <ul>
+                <li>
+                  <a class="waves-effect waves-light btn-large"><i class="fab fa-blogger left"></i>Blog</a>
+                </li>
+                <br/>
+                <li>
+                  <a class="waves-effect waves-light btn-large"><i class="fab fa-github-square left"></i>Github</a>
+                </li>
+                <br/>
+                <li>
+                  <a class="waves-effect waves-light btn-large"><i class="fab fa-facebook-square left"></i>Facebook</a>
+                </li>
+                <br/>
+                <li>
+                  <a class="waves-effect waves-light btn-large"><i class="fab fa-twitter-square left"></i>Twitter</a>
+                </li>
+                <br/>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col s3"></div>
+    <div class="col s3">
       <div class="card ">
         <div class="card-content black-text">
           <span class="card-title">Twitter</span>
         </div>
-          <a class="twitter-timeline" data-lang="ja" data-height="900"  data-link-color="#F5F8FA" href="https://twitter.com/jon_ground?ref_src=twsrc%5Etfw">Tweets by jon_ground</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a class="twitter-timeline" data-width="700" data-height="500" href="https://twitter.com/jon_ground?ref_src=twsrc%5Etfw">Tweets by jon_ground</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
     </div>
@@ -41,5 +67,9 @@ export default {
 </script>
 
 <style>
+.circle {
+  width: 100px;
+  height: 100px;
+}
 </style>
 
