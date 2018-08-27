@@ -1,8 +1,5 @@
 <template>
-   <nav class="nav-extended">
-    <div class="nav-wrapper grey darken-3">
-      <a href="#" class="brand-logo center">jon</a>
-    </div>
-  </nav>
-         
+  <v-toolbar color="primary">
+    <v-toolbar-title class="white--text">Title</v-toolbar-title>
+  </v-toolbar>
 </template>
