@@ -1,8 +1,11 @@
 language: node_js
+elm:
+  - elm0.19.0
 node_js:
-  - "8"
+  - "10"
 
 cache:
+  yarn: true
   directories:
     - "node_modules"
 
