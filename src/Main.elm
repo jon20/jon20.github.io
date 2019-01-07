@@ -17,7 +17,7 @@ import Html.Attributes exposing (..)
 fontAwesomeCDN
   = Html.node "link"
     [ rel "stylesheet"
-    , href "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    , href "https://use.fontawesome.com/releases/v5.6.1/css/all.css"
     ]
     []
 type Msg = NoOp
@@ -71,7 +71,10 @@ one = div [class "container"][
             p [][text "Welcome to my My portal site"]
           ]
         ],
-        controlButton { buttonModifiers | color = Info    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fa fa-twitter"  ] [] ], span [] [ text "Twitter"] ]
+        TableModifiers [][],
+        controlButton { buttonModifiers | color = Info    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-twitter"  ] [] ], span [] [ text "Twitter"] ],
+        controlButton { buttonModifiers | color = Link    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-facebook"  ] [] ], span [] [ text "Facebook"] ],
+        controlButton { buttonModifiers | color = Dark    } [] [href "https://jongz.hatenablog.com/"] [ icon Standard [] [ i [ class "fas fa-pen-nib"  ] [] ], span [] [ text "Blog"] ]
       ]
     ]
   ]]
