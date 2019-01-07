@@ -71,7 +71,6 @@ one = div [class "container"][
             p [][text "Welcome to my My portal site"]
           ]
         ],
-        TableModifiers [][],
         controlButton { buttonModifiers | color = Info    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-twitter"  ] [] ], span [] [ text "Twitter"] ],
         controlButton { buttonModifiers | color = Link    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-facebook"  ] [] ], span [] [ text "Facebook"] ],
         controlButton { buttonModifiers | color = Dark    } [] [href "https://jongz.hatenablog.com/"] [ icon Standard [] [ i [ class "fas fa-pen-nib"  ] [] ], span [] [ text "Blog"] ]
