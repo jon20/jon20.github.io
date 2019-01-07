@@ -54,7 +54,7 @@ view model
 
 header : Html Msg
 header =  Html.section [class "hero is-info is-medium is-bold"][
-  div [class "hero-body"][div [class "container has-text-centered"][h1 [class "title"][text "helloaaa"]]]]
+  div [class "hero-body"][div [class "container has-text-centered"][h1 [class "title"][text "Hello, 世界"]]]]
 
 one : Html Msg
 one = div [class "container"][
@@ -65,12 +65,13 @@ one = div [class "container"][
           div [class "media"][
             div [class "media-content has-text-centered"][
               p [class "title article-title"][text "jon"]
-            ],
-            div [class "content article-body"][
-              p [][text "NONONON"]
             ]
+          ],
+          div [class "media-content article-body"][
+            p [][text "Welcome to my My portal site"]
           ]
-        ]
+        ],
+        controlButton { buttonModifiers | color = Info    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fa fa-twitter"  ] [] ], span [] [ text "Twitter"] ]
       ]
     ]
   ]]
