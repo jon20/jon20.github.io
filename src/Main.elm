@@ -1,7 +1,5 @@
 module App exposing (..)
 
-
-
 import Browser
 import Bulma.CDN exposing (..)
 import Bulma.Modifiers exposing (..)
@@ -67,13 +65,14 @@ one = div [class "container"][
               p [class "title article-title"][text "jon"]
             ]
           ],
-          div [class "media-content article-body"][
-            p [][text "Welcome to my My portal site"]
+          div [class "media-content article-body has-text-centered"][
+            p [][text "I'm a college student"]
           ]
         ],
-        controlButton { buttonModifiers | color = Info    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-twitter"  ] [] ], span [] [ text "Twitter"] ],
-        controlButton { buttonModifiers | color = Link    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-facebook"  ] [] ], span [] [ text "Facebook"] ],
-        controlButton { buttonModifiers | color = Dark    } [] [href "https://jongz.hatenablog.com/"] [ icon Standard [] [ i [ class "fas fa-pen-nib"  ] [] ], span [] [ text "Blog"] ]
-      ]
+        fields Centered [][
+          controlButton { buttonModifiers | color = Info    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-twitter"  ] [] ], span [] [ text "Twitter"] ],
+          controlButton { buttonModifiers | color = Link    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-facebook"  ] [] ], span [] [ text "Facebook"] ],
+          controlButton { buttonModifiers | color = Dark    } [] [href "https://jongz.hatenablog.com/"] [ icon Standard [] [ i [ class "fas fa-pen-nib"  ] [] ], span [] [ text "Blog"] ]
+      ]]
     ]
   ]]
