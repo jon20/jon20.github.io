@@ -71,7 +71,7 @@ one = div [class "container"][
         ],
         fields Centered [][
           controlButton { buttonModifiers | color = Info    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-twitter"  ] [] ], span [] [ text "Twitter"] ],
-          controlButton { buttonModifiers | color = Link    } [] [href "https://twitter.com/jon_ground?lang=ja"] [ icon Standard [] [ i [ class "fab fa-facebook"  ] [] ], span [] [ text "Facebook"] ],
+          controlButton { buttonModifiers | color = Link    } [] [href "https://www.facebook.com/jongz127"] [ icon Standard [] [ i [ class "fab fa-facebook"  ] [] ], span [] [ text "Facebook"] ],
           controlButton { buttonModifiers | color = Dark    } [] [href "https://jongz.hatenablog.com/"] [ icon Standard [] [ i [ class "fas fa-pen-nib"  ] [] ], span [] [ text "Blog"] ]
       ]]
     ]
