@@ -80,7 +80,7 @@ one =
             [ div [ class "column is-8 is-offset-2" ]
                 [ card [ class "article" ]
                     [ div [ class "card-content" ]
-                        [ image (OneByOne X128) [ class "has-image-centered" ] [ img [ src "https://github.com/jon20/mypage/blob/master/src/assets/flog.jpg?raw=true", class "is-rounded" ] [] ]
+                        [ image (OneByOne X128) [ class "has-image-centered" ] [ img [ src "./assets/flog.jpg", class "is-rounded" ] [] ]
                         , div [ class "media" ]
                             [ div [ class "media-content has-text-centered" ]
                                 [ p [ class "title article-title" ] [ text "jon" ]
