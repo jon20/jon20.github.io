@@ -1,4 +1,5 @@
 require('./main.scss');
+import Image from './assets/flog.jpg'
 const {
     Elm
 } = require("./Main.elm")
