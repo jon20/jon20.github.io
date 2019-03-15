@@ -1,3 +1,4 @@
+'use strict';
 require('./main.scss');
 import Image from './assets/flog.jpg'
 const {
