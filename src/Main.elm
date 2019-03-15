@@ -1,4 +1,4 @@
-module App exposing (Model, Msg(..), fontAwesomeCDN, header, init, main, one, update, view)
+module Main exposing (Model, Msg(..), fontAwesomeCDN, header, init, main, one, update, view)
 
 import Browser
 import Bulma.CDN exposing (..)
